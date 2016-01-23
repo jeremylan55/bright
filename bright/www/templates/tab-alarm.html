@@ -1,0 +1,24 @@
+<ion-view view-title="Alarms">
+  <ion-content class="darkBG">
+    <ion-scroll zooming="false" direction="y" style="width: 100%; height: 100%; margin-bottom:-56px;">
+    <ion-list>
+      <ion-item class="item" ng-repeat="alarm in alarms">
+      {{alarm.name_}}<br>
+      {{alarm.time_}}
+      </ion-item>
+
+    </ion-list>
+    </ion-scroll>
+
+    <button class="plusAlarmBut butRight" ng-click="addAlarm()"></button>
+
+    <button class="saveAlarmBut butRight hidden" ng-click="saveAlarm()"></button>
+
+    <button class="cancelAlarmBut butLeft hidden" ng-click="cancelAlarm()"></button>
+
+    <div id="addAlarm" class="myModal hidden">
+      <input id="alarmName" value="New Alarm" type="text" placeholder="Alarm"></input>
+      Time<input id="alarmTime" value="12:00" type="time"></input>
+    </div>
+  </ion-content>
+</ion-view>

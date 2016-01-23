@@ -1,0 +1,201 @@
+/* Empty. Add your own CSS if you like */
+.ion-ios-light {
+	content: url('../img/light_inactive.svg') !important;
+}
+.ion-ios-light-strong {
+	content: url('../img/light_active.svg') !important;
+}
+
+.ion-ios-alarm {
+	content: url('../img/alarm_inactive.svg') !important;
+}
+.ion-ios-alarm-strong {
+	content: url('../img/alarm_active.svg') !important;
+}
+
+.ion-ios-schedule {
+	content: url('../img/schedule_inactive.svg') !important;
+}
+.ion-ios-schedule-strong {
+	content: url('../img/schedule_active.svg') !important;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#lightBut {
+	position: absolute;
+	width: 150px;
+	margin-left: -75px;
+	margin-top: -75px;
+	top: 50%;
+	left: 50%;
+	height: 150px;
+	background: url('../img/BulbOff.png') no-repeat;
+	background-size: 150px 150px;
+	border: none;
+}
+#lightBut.activated {
+	position: absolute;
+	width: 150px;
+	margin-left: -75px;
+	margin-top: -75px;
+	top: 50%;
+	left: 50%;
+	height: 150px;
+	background: url('../img/BulbOn.png') no-repeat;
+	background-size: 150px 150px;
+	border: none;
+}
+
+.pane {
+	background-color: #232323;
+}
+.tabs-striped .tabs {
+	background-color: #363636;
+	border-bottom: none;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+
+}
+.bar.bar-stable {
+	background-color: #363636;
+}
+
+.item {
+	background-color: #363636;
+	border-color: #232323;
+	color: #D8D8D8;
+}
+.butRight {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+.butLeft {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+.plusAlarmBut {
+	width: 56px;
+	height: 56px;
+	background: url('../img/plus.svg') no-repeat;
+	background-size: 56px 56px;
+	border: none;
+}
+
+.plusAlarmBut.activated {
+	background: url('../img/plus_active.svg') no-repeat;
+	background-size: 56px 56px;
+}
+.saveAlarmBut {
+	width: 56px;
+	height: 56px;
+	background: url('../img/tick.svg') no-repeat;
+	background-size: 56px 56px;
+	border: none;
+}
+
+.saveAlarmBut.activated {
+	background: url('../img/tick_active.svg') no-repeat;
+	background-size: 56px 56px;
+}
+
+.cancelAlarmBut {
+	width: 56px;
+	height: 56px;
+	background: url('../img/no.svg') no-repeat;
+	background-size: 56px 56px;
+	border: none;
+}
+
+.cancelAlarmBut.activated {
+	background: url('../img/no_active.svg') no-repeat;
+	background-size: 56px 56px;
+}
+
+.myModal {
+	position: absolute;
+	top: -200px;
+	width: 100%;
+	height: 200px;
+	z-index: 9999999;
+	background-color: #363636;
+	font-size: 16px;
+	color: #F7A349;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.64);
+}
+
+.myModal>input {
+	border-bottom: 1px solid #F7A349 !important;
+	color: #F7A349 !important;
+}
+input {
+	background-color: transparent;
+	margin-bottom: 10px;
+	font-size: 20px !important;
+}
+
+.time-container {
+	overflow: hidden;
+	position: absolute;
+	margin-left: -40%;
+	margin-top: -50%;
+	left: 50%;
+	top: 50%;
+	height: 60%;
+	width: 80%;
+	border-radius: 10px;
+	border: 2px solid #F7A349;
+}
+
+.startLightBut {
+	width: 100%;
+	height: 50%;
+	border: none;
+	background-color: #F7A349;
+	color: #232323 !important;
+	text-align: center;
+}
+.startLightBut>input {
+	color: #232323 !important;
+	font-size: 24px !important;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.stopLightBut {
+	width: 100%;
+	height: 50%;
+	border: none;
+	background-color: #232323;
+	color: #F7A349 !important;
+	text-align: center;
+}
+
+.stopLightBut>input {
+	color: #F7A349 !important;
+	font-size: 24px !important;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.saveSchedule {
+	position: absolute;
+	bottom: 20px;
+	width: 80%;
+	margin-left: -40%;
+	left: 50%;
+	height: 40px;
+	background-color: #F7A349;
+	border: none;
+	border-radius: 10px;
+}

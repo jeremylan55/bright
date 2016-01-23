@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>schedule_inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="schedule_inactive" sketch:type="MSArtboardGroup" fill="#F7A349">
+            <g sketch:type="MSLayerGroup" transform="translate(10.000000, 10.000000)" id="sleep_mode_L">
+                <path d="M50,100 C77.6142389,100 100,77.6142389 100,50 C100,22.3857611 77.6142389,0 50,0 C22.3857611,0 0,22.3857611 0,50 C0,77.6142389 22.3857611,100 50,100 Z M50,96 C75.4050997,96 96,75.4050997 96,50 C96,24.5949003 75.4050997,4 50,4 C24.5949003,4 4,24.5949003 4,50 C4,75.4050997 24.5949003,96 50,96 Z M77.9511043,58.5335011 C73.7890741,68.7771578 63.7380301,76 52,76 C36.5360262,76 24,63.4639738 24,48 C24,36.2619699 31.2228422,26.2109259 41.4664989,22.0488957 C38.0404113,26.4528765 36,31.9881563 36,38 C36,52.3594042 47.6405958,64 62,64 C68.0118437,64 73.5471235,61.9595887 77.9511043,58.5335011 Z" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
