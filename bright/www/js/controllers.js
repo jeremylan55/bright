@@ -8,6 +8,7 @@ angular.module('starter.controllers', [])
 	var hour = d.getHours();
 	var min = d.getMinutes();
 	var events;
+	alert(d);
 setTimeout(function(){
   $cordovaCalendar.listEventsInRange(
     new Date(year, month, date, hour, min, 0, 0, 0),
