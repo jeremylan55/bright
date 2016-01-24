@@ -1,5 +1,15 @@
-<ion-view view-title="Light">
+<ion-view view-title="May the light be">
   <ion-content class="padding">
-  <button id="lightBut"></button>
+  <div id="circle"></div>
+  <div id="innerCircle"></div>
+  <button id="lightBut" ng-click="toggleLight()"></button>
+
+
+	<form class="hidden" id="toggleLightForm" action="https://api.particle.io/v1/devices/54ff6b066678574933101167/light?access_token=5ef11b735841432e0d6597e2b010e96fcbeceba5" method="POST">
+	    <input name="args" value="off">
+	 </form>
+
+
+
   </ion-content>
 </ion-view>
